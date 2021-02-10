@@ -3,11 +3,11 @@
 }
 video {
   width: 25%;
+  border-style: solid;
 }
 .video {
   right: 20px;
   position: absolute;
-  border-style: solid;
 }
 .togglingImages {
      margin-left: 5%;
