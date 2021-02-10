@@ -10,6 +10,9 @@ video {
   width: 25%;
   position: fixed;
 }
+.hyperlink {
+  text-align: center;
+}
 .togglingImages {
      margin-left: 5%;
      margin-top: 10%;
