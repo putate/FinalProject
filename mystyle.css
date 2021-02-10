@@ -1,3 +1,6 @@
+.name {
+  text-align: center;
+}
 .video {
   right: 20px;
   position: fixed;
