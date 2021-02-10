@@ -9,7 +9,7 @@ video {
 }
 .video {
   right: 20px;
-  position: absolute;
+  position: fixed;
 }
 .togglingImages {
      margin-left: 5%;
