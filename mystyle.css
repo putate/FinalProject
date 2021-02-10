@@ -3,6 +3,11 @@
   position: fixed;
   width: 25%;
 }
+.hyperlink {
+  right: 20px;
+  position: fixed;
+  width: 25%;
+}
 .togglingImages {
      margin-left: 5%;
      margin-top: 10%;
