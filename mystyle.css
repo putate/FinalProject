@@ -3,7 +3,7 @@
 }
 .video {
   right: 20px;
-  position: relative;
+  position: absolute;
   width: 25%;
   border-style: solid;
 }
