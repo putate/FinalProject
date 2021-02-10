@@ -1,10 +1,12 @@
 .name {
   text-align: center;
 }
+video {
+  width: 25%;
+}
 .video {
   right: 20px;
   position: absolute;
-  width: 25%;
   border-style: solid;
 }
 .togglingImages {
