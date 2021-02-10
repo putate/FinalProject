@@ -2,13 +2,14 @@
   text-align: center;
 }
 video {
-  width: 25%;
+  width: 100%;
   position: absolute;
   right: 0px;
   border-style: solid;
 }
 .video {
   right: 20px;
+  width: 25%;
   position: fixed;
 }
 .togglingImages {
