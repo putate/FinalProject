@@ -1,4 +1,8 @@
-
+.video {
+  right: 20px;
+  position: fixed;
+  width: 17%;
+}
 .togglingImages {
      margin-left: 5%;
      margin-top: 10%;
