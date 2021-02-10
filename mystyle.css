@@ -3,6 +3,8 @@
 }
 video {
   width: 25%;
+  position: absolute;
+  right: 0px;
   border-style: solid;
 }
 .video {
