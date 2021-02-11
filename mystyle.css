@@ -1,11 +1,11 @@
 .name {
   text-align: center;
 }
-video {
+.video {
   width: 100%;
   border-style: solid;
 }
-.video {
+.videoDiv {
   right: 20px;
   width: 25%;
   position: fixed;
