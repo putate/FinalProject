@@ -24,11 +24,18 @@
   margin-left: 20px;
   width: 25%;
 }
+.description {
+  margin: auto;
+  position: relative;
+  width: 40%;
+}
 .slide, .panel {
   padding: 5px;
   text-align: center;
   background-color: #e5eecc;
   border: solid 1px #c3c3c3;
+  margin-bottom: 15%; 
+  margin-left: 35%;
 }
 .panel {
   padding: 50px;
