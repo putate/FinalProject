@@ -20,3 +20,7 @@
   border-style: solid;
   border-width: 5px;
 }
+.ingredientDiv {
+  margin-left: 20px;
+  width: 25%;
+}
