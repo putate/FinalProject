@@ -13,8 +13,6 @@ $(document).ready(function(){
 	   $(".IMG3").hide();
            $(".IMG1").fadeToggle();
    });
-   $("#directions").click(function(){      
-    $("#words").slideToggle("slow");
-  });
+
 });
 
