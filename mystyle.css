@@ -25,7 +25,8 @@
   width: 25%;
 }
 .container {
-  margin: 0px;
+  margin: 0;
+  padding: 0;
 }
 .description {
   position: absolute center;
