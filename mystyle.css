@@ -3,7 +3,8 @@
 }
 .video {
   width: 100%;
-  border-style: solid 5px;
+  border-style: solid;
+  border-style: 5px;
 }
 .videoDiv {
   right: 20px;
@@ -16,5 +17,6 @@
 .togglingImages {
   margin-left: 5%; 
   width: 25%; 
-  border-style: solid 5px;
+  border-style: solid;
+  border-width: 5px;
 }
