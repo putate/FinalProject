@@ -25,13 +25,11 @@
   width: 25%;
 }
 .container {
-  width: 100%;
-  margin: 0px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
+  margin: 0px;
 }
 .description {
   margin: auto;
-  position: absolute center;
+  position: relative;
   width: 40%;
 }
 .slide, .panel {
@@ -39,11 +37,11 @@
   text-align: center;
   background-color: lightblue;
   border: solid 1px #c3c3c3;
-  width: 50%;
-  
   margin-left: 35%;
 }
+
 .panel {
   padding: 50px;
   display: none;
 }
+
