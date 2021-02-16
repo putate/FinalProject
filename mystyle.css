@@ -29,7 +29,8 @@
   padding: 0;
 }
 .description {
-  position: absolute center;
+  margin: auto;
+  position: relative;
   width: 40%;
 }
 .slide, .panel {
