@@ -31,7 +31,7 @@
 }
 .description {
   margin: auto;
-  position: relative;
+  position: absolute center;
   width: 40%;
 }
 .slide, .panel {
