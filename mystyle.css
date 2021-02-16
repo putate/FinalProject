@@ -25,5 +25,6 @@
   width: 25%;
 }
 .description {
-  //need to get this center of page on the same level as the picture.
+  margin: auto;
+  width: 40%;
 }
