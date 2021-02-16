@@ -13,8 +13,8 @@ $(document).ready(function(){
 	   $(".IMG3").hide();
            $(".IMG1").fadeToggle();
    });
-   $(".slide").click(function(){      
-    $(".panel").slideToggle("slow");
+   $("#directions").click(function(){      
+    $("#words").slideToggle("slow");
   });
 });
 
