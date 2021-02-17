@@ -18,12 +18,10 @@
   width: 100%;
 }
 .slide, .panel {
-  padding: 5px;
   text-align: center;
   background-color: lightblue;
   border: solid 1px #c3c3c3;
-  margin-left: 35%;
-  width:60%;
+  width: 100%;
 }
 .panel {
   padding: 50px;
