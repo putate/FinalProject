@@ -45,19 +45,19 @@
   padding: 50px;
   display: none;
 }
-.leftpane {
+.leftPane {
   width: 25%;
   height: 100%;
   float: left;
   background-color: grey;
 }
-.middlepane {
+.middlePane {
   width: 50%;
   height: 100%;
   float: left;
   background-color: white;
 }
-.rightpane {
+.rightPane {
   width: 25%;
   height: 100%;
   position: relative;
