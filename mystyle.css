@@ -41,9 +41,26 @@
   margin-left: 35%;
   width:60%;
 }
-
 .panel {
   padding: 50px;
   display: none;
 }
-
+.leftpane {
+  width: 25%;
+  height: 100%;
+  float: left;
+  background-color: grey;
+}
+.middlepane {
+  width: 50%;
+  height: 100%;
+  float: left;
+  background-color: white;
+}
+.rightpane {
+  width: 25%;
+  height: 100%;
+  position: relative;
+  float: right;
+  background-color: grey;
+}
