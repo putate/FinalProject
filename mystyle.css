@@ -9,6 +9,7 @@
 .videoDiv {
   right: 20px;
   width: 25%;
+  position: relative;
 }
 .hyperlink {
   text-align: center;
