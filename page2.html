@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,7 +8,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="mystyle.css">
-    <title>Home</title>
+    <script src="myscript.js"></script>
+    <title>Peanut Butter Cups</title> 
   </head>
   <body>
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
@@ -21,11 +22,11 @@
           <li class="nav-item">
             <a class="nav-link" href="index.html">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="page1.html">Recipe One</a>
-          </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Recipe Two</a>
+            <a class="nav-link" href="#">Peanut Butter Cups</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="page2.html">Recipe Two</a>
           </li> 
           <li class="nav-item">
             <a class="nav-link" href="page3.html">Recipe Three</a>
@@ -33,25 +34,43 @@
         </ul>
       </div>  
     </nav>
-    
-    <h1>Recipe Two</h1>
-    
-    <video width="400" controls>
-    <source src="R2.mp4" type="video/mp4">
-    <source src="R2.ogg" type="video/ogg">
-    Your browser does not support HTML video.
-    </video>
-
-    <p>
-    Video courtesy of 
-    <a href="https://www.youtube.com/watch?v=IFe6ag34eMg" target="_blank">Tasty Youtube Channel</a>.
-</p><br>
-    
-    <img src="R2IMG.PNG"> 
-    
-    <p>Ingredients:chocolate candies, rice cereals, and small marshmallows</p>
-    <br>
-    <p>Intructions:heat and mix marshmallows in pan, add rice cereal, add chocolate candies and mix, take out of pan and cool for 30 minutes</p>
-    
-  </body>
+    <h1 class="name">Peanut Butter Cups</h1>
+    <div class="rightPane">
+      <video class="video" controls>
+        <source src="R1.mp4" type="video/mp4">
+        <source src="R1.ogg" type="video/ogg">
+        Your browser does not support HTML video.
+      </video>
+      <p class="hyperlink"> Video courtesy of <a href="https://www.youtube.com/watch?v=IFe6ag34eMg" target="_blank">Tasty Youtube Channel</a></p>
+    </div>
+    <div class="leftPane">
+      <img src="R1IMG.PNG" class="IMG1 togglingImages"> 
+      <img src="Reeses-Peanut-Butter-Cups-1-LOWRES.jpg" class="IMG2 togglingImages">
+      <img src="swirl.jpg" class="IMG3 togglingImages">
+      <br>
+      <div class="ingredientDiv">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><b>Ingredients:</b></li>
+          <li class="list-group-item">Peanut butter</li>
+          <li class="list-group-item">Melted chocolate</li>
+          <li class="list-group-item">Powdered sugar</li>
+        </ul>
+      </div>
+    </div>
+    <div class="middlePane">
+      <p>
+        A classic candy confection, the peanut butter cup is one of the most popular treats in America. It was first introduced by H.B. Reese in 1928. With simple ingredients and easy preperation, anyone can make it.
+      </p>
+      <div id="directions" class="slide">Directions</div>
+        <div id="words" class="panel">
+         <ul class="list-group list-group-flush">
+            <li class="list-group-item">Mix powdered sugar and peanut butter into a bowl</li>
+            <li class="list-group-item">Pour melted choclate into another bowl</li>
+            <li class="list-group-item">In a cupcake dish, put 1 layer of choclate, a circle of peanut butter, and then a layer of choclate on top</li>
+            <li class="list-group-item">Refrigerate for 1 hour</li>
+            <li class="list-group-item">Now serve!!!</li>
+          </ul>
+      </div> 
+    </div>
+  </body> 
 </html>
