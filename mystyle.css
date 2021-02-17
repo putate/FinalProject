@@ -44,18 +44,15 @@
   width: 25%;
   height: 100%;
   float: left;
-  background-color: grey;
 }
 .middlePane {
   width: 50%;
   height: 100%;
   float: left;
-  background-color: white;
 }
 .rightPane {
   width: 25%;
   height: 100%;
   position: relative;
   float: right;
-  background-color: grey;
 }
